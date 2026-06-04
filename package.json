@@ -1,5 +1,5 @@
 {
-  "name": "xyz.xshadow.portfolio",
+  "name": "ddroid-osportfolio",
   "private": true,
   "version": "1.0.0",
   "type": "module",
@@ -29,18 +29,21 @@
     "typescript": "^5.0.2",
     "vite": "^5.2.8"
   },
-  "description": "<p float=\"left\" align=\"center\">\r   <img src=\"https://i.imgur.com/U9lFsUG.jpeg\" width=15% />\r   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src=\"https://i.imgur.com/b1a39cz.png\" width=40% />\r   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src=\"https://i.ibb.co/n0C9kvJ/o.png\" width=15% height=10%/>\r </p>",
+  "description": "Ahmad Munir's operating-system-inspired portfolio site.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shadowdevfr/shadowdevfr.git"
+    "url": "git+https://github.com/ddroid/OSportfolio.git"
   },
   "keywords": [
-    "portfolio"
+    "portfolio",
+    "os",
+    "preact",
+    "typescript"
   ],
-  "author": "Maxim Lucas",
-  "license": "LGPL-3.0-or-later",
+  "author": "Ahmad Munir",
+  "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/shadowdevfr/shadowdevfr/issues"
+    "url": "https://github.com/ddroid/OSportfolio/issues"
   },
-  "homepage": "https://github.com/shadowdevfr/shadowdevfr#readme"
+  "homepage": "https://github.com/ddroid/OSportfolio#readme"
 }

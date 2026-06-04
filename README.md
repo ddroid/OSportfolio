@@ -1,35 +1,33 @@
-🇫🇷 Vous êtes français comme moi? Accèdez à mon readme français avec mon portfolio, mon adresse e-mail et ce qu'il faut pour me contacter en français [ici](https://github.com/shadowdevfr/shadowdevfr/blob/main/README_fr.md)
+🇫🇷 Looking for the French version? It is available here: [README_fr.md](./README_fr.md)
 
 # Hi there! 👋
 
-I'm a 17-year-old high school student with a passion for programming. Currently on the lookout for small jobs in the field, I have a relatively good experience in programming and I always want to learn more and explore new technologies!
+I'm Ahmad Munir (`ddroid`), a 19-year-old Software Engineer focused on Linux, open source, Rust, C, Elixir and TypeScript. I work at PlayProject and study Computer Science at the University of Gujrat.
 
 ## About Me
 
-- 🇫🇷 I speak french and english.
-- 🎓 Currently in high school
-- 💻 Passionate about programming since I was a kid
-- 🌱 Always eager to learn and explore new technologies
-- 🚀 Motivated to continuously improve
+- 🦀 Focused on Rust, systems programming and reliable tooling
+- 🐧 Obsessed with Linux, GNOME, Wayland, CachyOS and open source workflows
+- 🧰 Interested in P2P systems, developer tooling, TUI/GUI apps and Web3 smart contracts
+- 🎓 Bachelor of Computer Science student at the University of Gujrat
+- 💼 Software Engineer at PlayProject
 
 ## Skills
 
-- **Languages:** Python, JavaScript, TypeScript, VB.net 👴, C#, Go (I'm still learning)
-- **Technologies:** React, Svelte, React Native Expo, Node.js, BunJS, Electron, Hapi, Elysia, discord.js, Tailwind CSS, Preact, Vite and more
-- **Tools / Softwares / Misc:** Visual Studio 2022, Visual Studio Code, GitHub, Docker, Docker Compose, Ubuntu, Alpine Linux...
-  
-You can visit my portfolio at https://xshadow.xyz, that I made all by myself (I tried to make an original one, and I'm kind of happy with the results!) and is open-source.
+- **Languages:** Rust, TypeScript, C, Elixir, JavaScript, Go, Clarity, HTML & CSS
+- **Technologies:** React, Node.js/Bun, GTK/Rust, Tauri, Tailwind CSS, Preact, Vite, API design
+- **Tools / Systems:** Linux, CachyOS, GNOME, Wayland, Vicinae, GitHub, Docker, VS Code
 
 ## Projects
 
-I've worked on a lot of projects! You can find them on my portfolio, available at https://xshadow.xyz.
+This OS-inspired portfolio now highlights public work from my GitHub, including Linux desktop rice, developer tooling, Web3/Stacks experiments, smart contracts, UI prototypes and this portfolio itself.
 
 ## Get in Touch
 
-I'm always open to new opportunities and conversations! Feel free to reach out to me via email at **contact@xshadow.xyz**.
+- GitHub: <https://github.com/ddroid>
+- LinkedIn: <https://www.linkedin.com/in/ddroid/>
+- X: <https://x.com/ddroid_dev>
 
-If you want to work with me, send me an email, and I'll try to do my best to work with you! 🚀
+## Portfolio license
 
-
-#### Portfolio license
-This readme is also my portfolio's readme. My portfolio is licensed under GNU GPL v3.0. You can find the license in the [LICENSE](https://github.com/shadowdevfr/shadowdevfr/blob/main/LICENSE) file in the root of this repository, where you will find the conditions of use of my portfolio. Thanks! 😊
+This portfolio is licensed under GNU GPL v3.0. See [LICENSE](./LICENSE) for details.

@@ -4,28 +4,28 @@
     "boot.1": "Démarrage...",
     "boot.2": "Chargement du fond d'écran...",
 
-    "welcome.title": "Bienvenue sur mon portfolio!",
-    "welcome.desc1": "Naviguez comme si vous utilisiez un système d'éxploitation classique.",
-    "welcome.desc2": "Faites clique droit, ouvrez le menu démarrer, cliquez sur les icones du bureau... Faites ce que vous voulez!",
-    "welcome.desc3": "J'ai fait ce portfolio de moi-même, de A à Z. J'espère que vous l'apprécierez! J'ai essayé de faire quelque chose qui change du portfolio classique, et je pense que j'ai réussi!",
-    "welcome.desc4": "Vous pouvez en savoir plus en faisant clique droit sur le bureau et en cliquant sur \"A propos\".",
+    "welcome.title": "Bienvenue sur le portfolio d'Ahmad!",
+    "welcome.desc1": "Naviguez comme si vous utilisiez un système d'exploitation classique.",
+    "welcome.desc2": "Faites clic droit, ouvrez le menu démarrer, cliquez sur les icônes du bureau... Naviguez comme vous voulez!",
+    "welcome.desc3": "J'ai adapté ce portfolio autour de mon travail: Linux, open source, Rust, TypeScript, outils développeur, systèmes P2P, applications GUI/TUI et smart contracts Web3.",
+    "welcome.desc4": "Vous pouvez en savoir plus en faisant clic droit sur le bureau et en cliquant sur \"A propos\".",
     "welcome.btn": "J'ai compris",
 
     "app.aboutme": "A propos",
     "app.projects": "Projets",
     "app.skills": "Compétences",
     "app.terminal": "Terminal",
-    "app.email": "Contactez moi",
+    "app.email": "Contactez-moi",
 
     "app.skills.title": "Compétences en programmation",
     "app.github.title": "Profil Github",
     "app.os.customize.title": "Changer le fond d'écran",
     "app.os.about.title": "A propos",
-    "app.email.title": "Envoyez moi un email!",
+    "app.email.title": "Me contacter!",
 
-    "app.aboutme.content.title": "Je suis Maxim.",
-    "app.aboutme.content.subtitle": "Un jeune développeur français passioné.",
-    "app.aboutme.content.desc": "J'ai 17 ans et je suis actuellement au lycée. Je suis passionné par la programmation et je recherche des petits boulots dans ce domaine. J'ai beaucoup d'expérience en programmation et je cherche toujours à en apprendre davantage et à découvrir les nouvelles technologies ! Je pense que pour être un bon développeur, il faut toujours se renseigner sur de nouveaux langages, pratiques et règles de programmation. Je suis une personne très motivée et je cherche toujours à m'améliorer.",
+    "app.aboutme.content.title": "Je suis Ahmad Munir.",
+    "app.aboutme.content.subtitle": "Software Engineer orienté Rust, Linux et open source.",
+    "app.aboutme.content.desc": "J'ai 19 ans, je suis Software Engineer chez PlayProject et étudiant en Computer Science à l'University of Gujrat. Je suis passionné par Linux et l'open source, et j'aime construire avec Rust, C, Elixir et TypeScript. Mes centres d'intérêt tournent autour des systèmes P2P, de l'outillage développeur, des applications TUI/GUI et des smart contracts Web3.",
     "app.aboutme.content.btn": "Mon CV",
     
     "app.aboutwebsite.content.useadvice": "Utilisez ce portfolio comme un système d'exploitation classique.",
@@ -37,13 +37,13 @@
     "app.aboutwebsite.content.p6": "Hébergé avec",
 
     "app.github.content.title": "Vous voulez voir un peu de code?",
-    "app.github.content.subtitle": "Je n'ai pas beaucoup de repos publics, mais c'est là que vous trouverez du travail expérimental (et ce portfolio!).",
+    "app.github.content.subtitle": "Mon GitHub regroupe mes configs Linux, outils développeur, expérimentations Web3, prototypes UI et contributions open source.",
 
-    "app.email.content.title": "Vous avez une idée de projet? Une question?",
-    "app.email.content.subtitle": "Envoyez moi un email!",
+    "app.email.content.title": "Vous avez un projet, une opportunité ou une idée?",
+    "app.email.content.subtitle": "Contactez-moi sur LinkedIn ou GitHub.",
 
     "app.myprojects.content.title": "Projets",
-    "app.myprojects.content.subtitle": "Ici, vous pouvez trouvez les projets sur lesquels j'ai travaillé.",
+    "app.myprojects.content.subtitle": "Ici, vous pouvez trouver les projets sur lesquels j'ai travaillé.",
     "app.myprojects.content.learnmore": "En savoir plus",
     "app.myprojects.content.goback": "Retour",
     "app.myprojects.content.open": "Ouvrir",
@@ -54,7 +54,7 @@
     "app.skills.content.frameworks": "Frameworks / Bibliothèques",
     "app.skills.content.tools": "Outils",
 
-    "contextmenu.customize": "Customiser",
+    "contextmenu.customize": "Personnaliser",
     "contextmenu.about": "A propos",
 
     "taskbar.settings.left": "restants",

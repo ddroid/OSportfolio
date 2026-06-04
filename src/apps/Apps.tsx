@@ -6,7 +6,7 @@ const MyProjects = lazy(() => import("./MyProjects/MyProjects"));
 const AboutWebsite = lazy(() => import("./AboutWebsite/About"));
 const Customize = lazy(() => import("./Customize/Customize"));
 const GithubWindow = lazy(() => import("./Github/GithubWindow"));
-const Pepsi = lazy(() => import("./PepsiTheCat/Pepsi"));
+const CatGallery = lazy(() => import("./PepsiTheCat/Pepsi"));
 const SkillsMain = lazy(() => import("./Skills/SkillsMain"));
 const Terminal = lazy(() => import("./Terminal/Terminal"));
 const AboutMe = lazy(() => import("./AboutMe/AboutMe"));
@@ -87,7 +87,7 @@ const apps: App[] = [
         component: () => <Suspense fallback={<LoadingApp/>}><GithubWindow /></Suspense>
     },
     {
-        name: 'Pepsi',
+        name: 'Cat',
         window: {
             width: 600,
             height: 500,
@@ -95,10 +95,10 @@ const apps: App[] = [
             maximizable: true,
             minimizable: true,
             fullscreenable: true,
-            title: 'Pepsi - Gallery'
+            title: 'Cat Gallery'
         },
         icon: '/apps/pepsifolder.png',
-        component: () => <Suspense fallback={<LoadingApp/>}><Pepsi/></Suspense>
+        component: () => <Suspense fallback={<LoadingApp/>}><CatGallery/></Suspense>
     },
     {
         name: t('app.email'),

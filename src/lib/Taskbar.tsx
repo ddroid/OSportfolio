@@ -24,7 +24,7 @@ export default function Taskbar() {
                         if (app.hide) return <TaskbarAppElement app={app}/>
                     })}
                     {Apps.map((app) => {
-                      if (app.name === "Pepsi" && !pepsimode.value) return null;
+                      if (app.name === "Cat" && !pepsimode.value) return null;
                       if (app.hide) return null;
                       return <TaskbarAppElement app={app}/>
                     })}

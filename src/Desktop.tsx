@@ -36,13 +36,7 @@ export default function Desktop() {
     useEffect(() => {
         handleResize();
 
-        // umami domain metrics (ts-ignore as umami will be defined when loaded)
-        try {
-          // @ts-ignore
-          umami.track(`Domain: ${window.location.hostname}`)
-        } catch (error) {
-          
-        }
+
 
         window.addEventListener("resize", handleResize)
         return () => {
@@ -103,14 +97,14 @@ export default function Desktop() {
             {/* Mobile only - shows apps in a grid format like a home screen */}
             {isMobile ? <div class='flex mt-8 items-baseline justify-evenly sm:justify-start gap-10  px-5 py-10 h-full flex-wrap p-2 w-screen content-start' style={{visibility: appFullScreen ? 'hidden' : 'visible'}}>
                 {Apps.map((app) => {
-                  if (app.name === "Pepsi" && !pepsimode.value) return null;
+                  if (app.name === "Cat" && !pepsimode.value) return null;
                   if (app.hide) return null;
                   return <Suspense fallback={<></>}><DesktopAppIconMobile app={app} /></Suspense>
                 })}
             </div> : <></>}
             {showWelcome ? (<div ref={refs.setFloating} style={floatingStyles} class="z-50"><WelcomePopup hide={() => {setShowWelcome(false)}} isMobile={isMobile}/></div>) : null}
             <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDuration={5000} isVisible={!isAppFullscreen.value}>
-              <p class={`absolute bottom-0 md:bottom-5 right-0 text-xs pr-2 pb-2 md:pb-0 md:pr-5 md:text-sm text-end text-white opacity-20`}>© {new Date().getFullYear()} <a href='https://github.com/shadowdevfr' class='hover:opacity-50 transition' target='_blank'> Maxim Lucas</a> {pepsimode.value ? <span class='text-xl'><br/>🐈 Pepsi Mode</span> : ''}</p>
+              <p class={`absolute bottom-0 md:bottom-5 right-0 text-xs pr-2 pb-2 md:pb-0 md:pr-5 md:text-sm text-end text-white opacity-20`}>© {new Date().getFullYear()} <a href='https://github.com/ddroid' class='hover:opacity-50 transition' target='_blank'> Ahmad Munir</a> {pepsimode.value ? <span class='text-xl'><br/>🐈 Cat Mode</span> : ''}</p>
             </Animated>
             <Animated animationIn="fadeIn" animationOut="fadeOut" animationInDuration={5000} isVisible={!isAppFullscreen.value}>
               <p class='md:hidden w-full text-center absolute bottom-10 text-lg text-white'>{t('looksbetteronpc')}</p>

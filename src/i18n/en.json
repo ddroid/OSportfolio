@@ -4,10 +4,10 @@
     "boot.1": "Booting up...",
     "boot.2": "Loading wallpaper...",
 
-    "welcome.title": "Welcome to my portfolio!",
-    "welcome.desc1": "Navigate through this portfolio like you would on an classic operating system.",
+    "welcome.title": "Welcome to Ahmad's portfolio!",
+    "welcome.desc1": "Navigate through this portfolio like you would on a classic operating system.",
     "welcome.desc2": "Right click, open the start menu, click on desktop icons... Navigate as you wish!",
-    "welcome.desc3": "I did this portfolio all by myself, from scratch. I wanted to make something different from the usual portfolio, and I think I did it!",
+    "welcome.desc3": "I rebuilt this portfolio around my work: Linux, open source, Rust, TypeScript, dev tooling, P2P systems, GUI/TUI apps, and Web3 contracts.",
     "welcome.desc4": "You can learn more by right clicking on the desktop and clicking on \"About\".",
     "welcome.btn": "Don't show this again",
 
@@ -21,11 +21,11 @@
     "app.github.title": "Github profile",
     "app.os.customize.title": "Change wallpaper",
     "app.os.about.title": "About",
-    "app.email.title": "Send me an email!",
+    "app.email.title": "Get in touch!",
 
-    "app.aboutme.content.title": "I'm Maxim.",
-    "app.aboutme.content.subtitle": "A french developer.",
-    "app.aboutme.content.desc": "I'm 17 years old and I'm currently in high school. I'm passionate about programming and I'm looking for small jobs in this field. I have a lot of experience in programming and I'm always looking to learn more & learn about new technologies! I believe that to be a good developer, you always have to learn about new programming languages, practices and rutimes. I'm a very motivated person and I'm always looking to improve myself.",
+    "app.aboutme.content.title": "I'm Ahmad Munir.",
+    "app.aboutme.content.subtitle": "Software Engineer focused on Rust, Linux and open source.",
+    "app.aboutme.content.desc": "I'm a 19-year-old software engineer at PlayProject and a Computer Science student at the University of Gujrat. I'm obsessed with Linux and open source, and I love building with Rust, C, Elixir and TypeScript. My interests sit around P2P systems, developer tooling, TUI/GUI apps, and Web3 smart contracts.",
     "app.aboutme.content.btn": "My resume",
     
     "app.aboutwebsite.content.useadvice": "Use this portfolio like you would use a real operating system.",
@@ -37,13 +37,13 @@
     "app.aboutwebsite.content.p6": "This is hosted on",
 
     "app.github.content.title": "Looking to see some of my work?",
-    "app.github.content.subtitle": "I don't have that much public repositories, but it's where you will find experimental work (and this portfolio!).",
+    "app.github.content.subtitle": "My GitHub is where I share Linux configs, developer tooling, Web3 experiments, UI prototypes and open source work.",
 
-    "app.email.content.title": "Do you have a project in mind? A question?",
-    "app.email.content.subtitle": "Send me an email!",
+    "app.email.content.title": "Have a project, role, or idea in mind?",
+    "app.email.content.subtitle": "Connect with me on LinkedIn or GitHub.",
 
     "app.myprojects.content.title": "Projects",
-    "app.myprojects.content.subtitle": "Here you can find stuff that I've worked on.",
+    "app.myprojects.content.subtitle": "Here you can find things that I've worked on.",
     "app.myprojects.content.learnmore": "Learn more",
     "app.myprojects.content.goback": "Go back",
     "app.myprojects.content.open": "Open",

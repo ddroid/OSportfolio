@@ -1,34 +1,33 @@
-🇬🇧 Are you looking for the english version of this readme file, as well as my contact information for english tasks? It's [available here](https://github.com/shadowdevfr/shadowdevfr/blob/main/README.md)
+🇬🇧 Vous cherchez la version anglaise? Elle est disponible ici: [README.md](./README.md)
 
 # Salut ! 👋
 
-Je suis un lycéen de 17 ans passionné par la programmation. Actuellement à la recherche de petits projets dans ce domaine, j'ai une assez bonne expérience en programmation et je suis toujours désireux d'en apprendre davantage et d'explorer de nouvelles technologies !
+Je suis Ahmad Munir (`ddroid`), Software Engineer de 19 ans orienté Linux, open source, Rust, C, Elixir et TypeScript. Je travaille chez PlayProject et j'étudie la Computer Science à l'University of Gujrat.
 
 ## À Propos de Moi
 
-- 🇫🇷 Je parle français et anglais.
-- 🎓 Actuellement au lycée
-- 💻 Passionné par la programmation depuis mon enfance
-- 🌱 Toujours avide d'apprendre et d'explorer de nouvelles technologies
-- 🚀 Motivé pour m'améliorer continuellement
+- 🦀 Orienté Rust, programmation système et outils fiables
+- 🐧 Passionné par Linux, GNOME, Wayland, CachyOS et les workflows open source
+- 🧰 Intéressé par les systèmes P2P, l'outillage développeur, les applications TUI/GUI et les smart contracts Web3
+- 🎓 Étudiant en Bachelor of Computer Science à l'University of Gujrat
+- 💼 Software Engineer chez PlayProject
 
 ## Compétences
 
-- **Langages :** Python, JavaScript, TypeScript, VB.net 👴, C#, Go (j'apprends encore)
-- **Technologies :** React, Svelte, React Native Expo, Node.js, BunJS, Electron, Hapi, Elysia, discord.js, Tailwind CSS, Preact, Vite et plus
-- **Outils / Logiciels / Divers :** Visual Studio 2022, Visual Studio Code, GitHub, Docker, Docker Compose, Ubuntu, Alpine Linux...
-  
-Vous pouvez visiter mon portfolio à https://maximlucas.dev, que j'ai réalisé entièrement par moi-même (j'ai essayé d'en faire un original, et je suis plutôt satisfait du résultat !) et qui est open-source.
+- **Langages :** Rust, TypeScript, C, Elixir, JavaScript, Go, Clarity, HTML & CSS
+- **Technologies :** React, Node.js/Bun, GTK/Rust, Tauri, Tailwind CSS, Preact, Vite, conception d'API
+- **Outils / Systèmes :** Linux, CachyOS, GNOME, Wayland, Vicinae, GitHub, Docker, VS Code
 
 ## Projets
 
-J'ai travaillé sur de nombreux projets ! Vous pouvez les trouver sur mon portfolio, disponible à l'adresse https://maximlucas.dev.
+Ce portfolio inspiré d'un OS met maintenant en avant mes projets publics GitHub: rice Linux, outils développeur, expérimentations Web3/Stacks, smart contracts, prototypes UI et ce portfolio lui-même.
 
 ## Me Contacter
 
-Je suis toujours ouvert à de nouvelles opportunités et conversations ! N'hésitez pas à me contacter par e-mail à **contact@maximlucas.dev**.
+- GitHub: <https://github.com/ddroid>
+- LinkedIn: <https://www.linkedin.com/in/ddroid/>
+- X: <https://x.com/ddroid_dev>
 
-Si vous souhaitez travailler avec moi, envoyez-moi un e-mail et je ferai de mon mieux pour collaborer avec vous ! 🚀
+## Licence du Portfolio
 
-#### Licence du Portfolio
-Ce readme est également celui de mon portfolio. Mon portfolio est sous licence GNU GPL v3.0. Vous pouvez trouver la licence dans le fichier [LICENSE](https://github.com/shadowdevfr/shadowdevfr/blob/main/LICENSE) à la racine de ce repo, où vous trouverez les conditions d'utilisation de mon portfolio. Merci ! 😊
+Ce portfolio est sous licence GNU GPL v3.0. Consultez [LICENSE](./LICENSE) pour plus de détails.

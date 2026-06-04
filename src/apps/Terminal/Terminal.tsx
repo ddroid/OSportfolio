@@ -24,9 +24,9 @@ export default function Terminal() {
           <div className='flex flex-col justify-end'>
             <div className='font-mono w-full h-full md:h-96 p-3 text-white overflow-y-scroll noscrollbar' style={{height: window.innerWidth < 768 ? window.innerHeight-100 : 385}} id={termId}>
               <p className='text-gray-400 mb-5'><span class='gradient-text'>Welcome to PortfoliOS 1.1.2 (x64)</span><br/><br/>
-                * Website:  https://xshadow.xyz | https://maximlucas.dev<br/>
-                * Support:  contact@xshadow.xyz
-                </p>
+                              * GitHub:   https://github.com/ddroid<br/>
+                              * LinkedIn: https://www.linkedin.com/in/ddroid/
+                              </p>
               <p className='text-white/50 text-xs'>(i) Type "help" to start! To type commands, click on "help" below. It's the input box!</p>
               {history.map((value) => {
                 const Component = value;
@@ -37,7 +37,7 @@ export default function Terminal() {
                 }}/>
               })}
               <p>
-                visitor@maxluc:~$ 
+                visitor@ddroid:~$
                 <input id={termInputId} className='ml-2 bg-transparent focus:outline-none' style={{width: inputData.length === 0 ? 1 : `${inputData.length}ch`}} placeholder='' value={inputData} onChange={(value) => {inputHandler(value.target.value)}} onKeyDown={(key) => {
                     switch (key.keyCode) { // Had to use deprecated keycode to prevent compatibility issues
                       case 13:
@@ -47,7 +47,7 @@ export default function Terminal() {
                         setHistoryCursor(newInputHistory.length);
                         if (inputData.length === 0) return;
                         const command = commands.filter((value) => value.name === inputData)[0];
-                        const comp = () => {return <p>visitor@maxluc:~$ {inputData}</p>}
+                        const comp = () => {return <p>visitor@ddroid:~$ {inputData}</p>}
                         if (!command) {
                           setHistory([...history, comp, () => {return <p className='text-red-500'>{inputData}: command not found</p>}]);
                           setInputData('');
@@ -56,9 +56,8 @@ export default function Terminal() {
                           setInputData('');
                         }
                         setTimeout(() => document.getElementById(termId).scrollTop = document.getElementById(termId).scrollHeight, 100);
-                        // Umami
                         // @ts-ignore
-                        umami.track(`Execute terminal command ${inputData}`);
+                        if (window.umami) window.umami.track(`Execute terminal command ${inputData}`);
                         break;
                       case 38:
                         if (!inputHistory[historyCursor-1]) break;

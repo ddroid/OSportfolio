@@ -13,7 +13,7 @@ export const commands = [
             return <h1>
                 <p className='gradient-text w-max'>========= List of commands =========</p>
                 <p>• help <span className='text-gray-400'>- Get a list of commands</span></p>
-                <p>• pepsi <span className='text-gray-400'>- Get a random pepsi image</span></p>
+                <p>• cat <span className='text-gray-400'>- Toggle cat mode and get a random cat</span></p>
                 <p>• neofetch <span className='text-gray-400'>- Get my main PC specs</span></p>
                 <p>• htop <span className='text-gray-400'>- Show a fake htop</span></p>
                 <p>• baguette <span className='text-gray-400'>- baget</span></p>
@@ -23,18 +23,15 @@ export const commands = [
         }
     },
     {
-        name: 'pepsi',
+        name: 'cat',
         Response: (props:{scroll:() => {}}) => {
             const [pic, setPic] = useState('');
             useEffect(() => {
                 pepsimode.value = !pepsimode.value;
-                console.log(pepsimode.value)
-                fetch('https://api.pepsi.xshadow.xyz/pic').then(res => res.json()).then(data => {
-                    setPic(data.url);
-                }) 
+                setPic(`https://cataas.com/cat?width=900&height=700&ts=${Date.now()}`);
             }, []);
-            if (pic === '') return <p><Spinner/> Fetching a new Pepsi picture...</p>
-            return <><img src={pic} alt="pepsi" onLoad={() => props.scroll()}/><p>🐈 Pepsi Mode {pepsimode.value ? 'enabled' : 'disabled'}. Meow!</p></>
+            if (pic === '') return <p><Spinner/> Fetching a new cat picture...</p>
+            return <><img src={pic} alt="cat" onLoad={() => props.scroll()}/><p>🐈 Cat Mode {pepsimode.value ? 'enabled' : 'disabled'}. Meow!</p></>
         }
     }, 
     {
@@ -70,26 +67,26 @@ export const commands = [
                 ⠀⠀⠀⠀'"'⠀⠀⠀'"'<br/>
                 </p>
                 <p className="text-gray-300 w-1/2">
-                    <span className="gradient-text">OS:</span> PepsiOS 1.1.2 x64<br/>
-                    <span className="gradient-text">Host:</span> xshadow<br/>
-                    <span className="gradient-text">Uptime:</span> {uptime}<br/>
-                    <span className="gradient-text">Resolution:</span> {window.innerWidth}x{window.innerHeight}<br/>
-                    <span className="gradient-text">CPU: </span> AMD Ryzen 7 7700 (16) @ 5.3GHz<br/>
-                    <span className="gradient-text">GPU:</span> AMD Radeon RX 5700 XT<br/>
-                    <span className="gradient-text">Memory:</span> 31864MB DDR5<br/>
+                    <span className="gradient-text">OS:</span> AhmadOS 1.1.2 x64<br/>
+                                        <span className="gradient-text">Host:</span> ddroid<br/>
+                                        <span className="gradient-text">Uptime:</span> {uptime}<br/>
+                                        <span className="gradient-text">Resolution:</span> {window.innerWidth}x{window.innerHeight}<br/>
+                                        <span className="gradient-text">Stack:</span> Rust, TypeScript, C, Elixir<br/>
+                                        <span className="gradient-text">Focus:</span> Linux, OSS, P2P, Web3<br/>
+                                        <span className="gradient-text">Shell:</span> CachyOS / GNOME / Wayland<br/>
                 </p>
             </div>
         }
     },
     {
         name: 'htop',
-        Response: (props:{scroll:() => {}}) => {
+        Response: () => {
             const [cpus, setCpus] = useState([...Array(10).keys()]);
             const POSSIBLE_PROCESSES = [
-                {user: 'pepsi', command: './catto-downloader'},
-                {user: 'pepsi', command: './infinite-treats-generator'},
-                {user: 'bartosz1', command: './polish-cow'},
-                {user: 'bartosz1', command: './intellij-idea --project=bmonitord'},
+                {user: 'ddroid', command: './rust-devtool --watch'},
+                {user: 'ddroid', command: './p2p-node --local'},
+                {user: 'linux', command: './catto-downloader'},
+                {user: 'linux', command: './gnome-extension --reload'},
             ]
 
             const [process, setProcess] = useState(POSSIBLE_PROCESSES[0]);
@@ -134,7 +131,7 @@ export const commands = [
     {
         name: 'ls',
         Response: () => {
-            return <p><span className="gradient-text font-bold">apps pepsi-pics sideprojects</span> Portfolio.tsx</p>
+            return <p><span className="gradient-text font-bold">apps linux-rice devtools web3-contracts</span> Portfolio.tsx</p>
         }
     },
     {
