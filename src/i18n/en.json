@@ -1,6 +1,6 @@
 {
     "copyright": "All rights reserved.",
-    
+
     "boot.1": "Booting up...",
     "boot.2": "Loading wallpaper...",
 
@@ -27,7 +27,7 @@
     "app.aboutme.content.subtitle": "Software Engineer focused on Rust, Linux and open source.",
     "app.aboutme.content.desc": "I'm a 19-year-old software engineer at PlayProject and a Computer Science student at the University of Gujrat. I'm obsessed with Linux and open source, and I love building with Rust, C, Elixir and TypeScript. My interests sit around P2P systems, developer tooling, TUI/GUI apps, and Web3 smart contracts.",
     "app.aboutme.content.btn": "My resume",
-    
+
     "app.aboutwebsite.content.useadvice": "Use this portfolio like you would use a real operating system.",
     "app.aboutwebsite.content.p1": "It was built on top of",
     "app.aboutwebsite.content.p2": "and",
@@ -40,7 +40,7 @@
     "app.github.content.subtitle": "My GitHub is where I share Linux configs, developer tooling, Web3 experiments, UI prototypes and open source work.",
 
     "app.email.content.title": "Have a project, role, or idea in mind?",
-    "app.email.content.subtitle": "Connect with me on LinkedIn or GitHub.",
+    "app.email.content.subtitle": "Connect with me.",
 
     "app.myprojects.content.title": "Projects",
     "app.myprojects.content.subtitle": "Here you can find things that I've worked on.",

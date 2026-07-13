@@ -15,9 +15,13 @@ export default function AboutMe() {
             </Animated>
 
             <Animated animationIn="fadeIn" animationOut="fadeOut" isVisible={true} animationInDuration={2000} animationInDelay={1000}>
-                <button class='bg-blue-600 shadow p-2 rounded-md opacity-50 cursor-not-allowed'>
+                <a
+                    href="/Ahmad-Resume.pdf"
+                    download="Ahmad-Resume.pdf"
+                    class='bg-blue-600 hover:bg-blue-500 shadow p-2 rounded-md transition'
+                >
                     {t('app.aboutme.content.btn')}
-                </button>
+                </a>
             </Animated>
         </div>
     </div>

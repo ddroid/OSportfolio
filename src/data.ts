@@ -70,101 +70,125 @@ const tools: Skill[] = [
 
 const projects: Project[] = [
     {
-      title: "gnome-nord-rice (2025-...)",
+      title: "TABI (2026)",
+      subtitleEN: "Pakistan clothing storefront on Medusa + Next.js.",
+      subtitleFR: "Boutique de vêtements pakistanaise sur Medusa + Next.js.",
+      descriptionEN:
+          "A full commerce stack for ta-bi.pk: Medusa v2 backend, Next.js storefront, PKR pricing, cash-on-delivery, and S3-compatible product media. Built as a production-ready local clothing brand experience.",
+      descriptionFR:
+          "Une stack e-commerce complète pour ta-bi.pk : backend Medusa v2, storefront Next.js, prix en PKR, paiement à la livraison et médias produits compatibles S3. Pensé comme une expérience de marque locale prête pour la production.",
+      image: "/projects/tabi.png",
+      link: "https://beta.ta-bi.pk",
+      skillsName: ["Next.js", "Medusa", "TypeScript", "Commerce"]
+    },
+    {
+      title: "Ronin (2026)",
+      subtitleEN: "Native Linux AI workbench with chat, memory, and artifacts.",
+      subtitleFR: "Workbench IA natif Linux avec chat, mémoire et artefacts.",
+      descriptionEN:
+          "A local-first AI workbench for Linux: threaded chat, explicit context tools, memories/artifacts, and hybrid local/cloud model support. Built around a fast CLI launcher and native desktop workflows.",
+      descriptionFR:
+          "Un workbench IA local-first pour Linux : chat en fils, outils de contexte explicites, mémoires/artefacts et support de modèles locaux/cloud. Construit autour d'un lanceur CLI rapide et de workflows desktop natifs.",
+      image: "/projects/ronin.png",
+      link: "https://github.com/roninchat/ronin",
+      skillsName: ["Rust", "AI", "Linux", "GPUI"]
+    },
+    {
+      title: "linkdrop (2026)",
+      subtitleEN: "Push HTML and get a shareable link.",
+      subtitleFR: "Poussez du HTML et obtenez un lien partageable.",
+      descriptionEN:
+          "A CLI and server for AI agents and humans to upload HTML and get a short shareable URL. Supports push, delete, list, slugs, TTL, and token-authenticated deployments.",
+      descriptionFR:
+          "Un CLI et un serveur pour que les agents IA et les humains uploadent du HTML et obtiennent une URL courte partageable. Supporte push, delete, list, slugs, TTL et des déploiements authentifiés par token.",
+      image: "/projects/linkdrop.png",
+      link: "https://github.com/ddroid/linkdrop",
+      skillsName: ["Rust", "CLI", "HTTP", "Dev Tooling"]
+    },
+    {
+      title: "weekplan (2026)",
+      subtitleEN: "A GTK app for planning weekly recurring tasks.",
+      subtitleFR: "Une app GTK pour planifier des tâches hebdomadaires récurrentes.",
+      descriptionEN:
+          "A native GTK application for organizing recurring weekly tasks by day. Focused on a calm desktop UX for routines like work blocks, errands, and habits.",
+      descriptionFR:
+          "Une application GTK native pour organiser des tâches hebdomadaires récurrentes par jour. Pensée pour une UX desktop calme autour des routines, blocs de travail et habitudes.",
+      image: "/projects/weekplan.png",
+      link: "https://github.com/ddroid/weekplan",
+      skillsName: ["Rust", "GTK", "Linux", "Desktop"]
+    },
+    {
+      title: "spacep2p (2026)",
+      subtitleEN: "Peer-to-peer multiplayer space combat with no game server.",
+      subtitleFR: "Combat spatial multijoueur peer-to-peer sans serveur de jeu.",
+      descriptionEN:
+          "A real-time multiplayer space shooter that uses WebRTC/Nostr peer discovery instead of a dedicated game server. Create an arena, share a room link, and dogfight in the browser.",
+      descriptionFR:
+          "Un shooter spatial multijoueur temps réel qui utilise la découverte WebRTC/Nostr au lieu d'un serveur de jeu dédié. Créez une arène, partagez un lien de room et combattez dans le navigateur.",
+      image: "/projects/spacep2p.png",
+      link: "https://spacep2p.ddroid.dev/",
+      skillsName: ["TypeScript", "P2P", "WebRTC", "Game"]
+    },
+    {
+      title: "smart-apply (2026)",
+      subtitleEN: "AI job hunting assistant with match scoring and company research.",
+      subtitleFR: "Assistant IA de recherche d'emploi avec scoring et recherche d'entreprises.",
+      descriptionEN:
+          "A full-stack AI job assistant that discovers roles, scores them against a user profile, researches companies, and tracks applications from a clean dashboard.",
+      descriptionFR:
+          "Un assistant emploi full-stack IA qui trouve des offres, les score par rapport au profil, recherche les entreprises et suit les candidatures depuis un dashboard clair.",
+      image: "/projects/smart-apply.png",
+      link: "https://smartapply.me",
+      skillsName: ["Next.js", "AI", "TypeScript", "Product"]
+    },
+    {
+      title: "gnome-nord-rice (2025)",
       subtitleEN: "Dotfiles for an awesome Nord-themed GNOME Linux desktop rice.",
       subtitleFR: "Dotfiles pour un rice GNOME Linux avec un thème Nord.",
       descriptionEN:
           "A public Linux desktop customization project focused on a polished GNOME setup, Nord aesthetics, and reproducible dotfiles. It reflects my interest in Linux, open source workflows, and building personal tooling around the desktop experience.",
       descriptionFR:
           "Un projet public de personnalisation de bureau Linux autour de GNOME, d'une esthétique Nord et de dotfiles reproductibles. Il reflète mon intérêt pour Linux, l'open source et les outils autour de l'expérience desktop.",
-      image: "/projets/optikserverscom.webp",
+      image: "/projects/gnome-nord-rice.png",
       link: "https://github.com/ddroid/gnome-nord-rice",
       skillsName: ["Linux", "GNOME", "Shell", "Open Source"]
     },
     {
-      title: "STXWorx (2026)",
-      subtitleEN: "TypeScript/Web3 work around Stacks tooling and blockchain products.",
-      subtitleFR: "Travail TypeScript/Web3 autour de Stacks, d'outils blockchain et de produits décentralisés.",
-      descriptionEN:
-          "A Web3-focused codebase connected to the Stacks ecosystem. It represents my work across TypeScript applications, blockchain tooling, and product experiments in decentralized systems.",
-      descriptionFR:
-          "Une base de code orientée Web3 liée à l'écosystème Stacks. Elle représente mon travail sur des applications TypeScript, des outils blockchain et des expérimentations produit en systèmes décentralisés.",
-      image: "/projets/shadowsdash.webp",
-      link: "https://github.com/ddroid/stxworx",
-      skillsName: ["TypeScript", "Web3", "Stacks", "Blockchain"]
-    },
-    {
-      title: "smartcontracts-stxworx (2026)",
-      subtitleEN: "Clarity smart contracts for Stacks/Web3 experiments.",
-      subtitleFR: "Smart contracts Clarity pour des expérimentations Stacks/Web3.",
-      descriptionEN:
-          "A collection of Clarity smart contracts and blockchain-side experiments. This project highlights my interest in Web3 contracts, decentralized products, and protocol-level development.",
-      descriptionFR:
-          "Une collection de smart contracts Clarity et d'expérimentations côté blockchain. Ce projet met en avant mon intérêt pour les contrats Web3, les produits décentralisés et le développement au niveau protocole.",
-      image: "/projets/sudoku.webp",
-      link: "https://github.com/ddroid/smartcontracts-stxworx",
-      skillsName: ["Clarity", "Smart Contracts", "Stacks", "Web3"]
-    },
-    {
-      title: "yup (2026)",
-      subtitleEN: "A POSIX wrapper for yay with a 24-hour AUR safety delay.",
-      subtitleFR: "Un wrapper POSIX pour yay avec un délai de sécurité AUR de 24 heures.",
-      descriptionEN:
-          "A small security-focused Linux tool that wraps yay and enforces a 24-hour delay on AUR package installations and updates. The goal is to reduce exposure to fresh supply-chain attacks while keeping the Arch workflow ergonomic.",
-      descriptionFR:
-          "Un petit outil Linux orienté sécurité qui encapsule yay et impose un délai de 24 heures sur les installations et mises à jour AUR. L'objectif est de réduire l'exposition aux attaques de supply chain récentes tout en gardant un workflow Arch pratique.",
-      image: "/projets/quackhost.webp",
-      link: "https://github.com/ddroid/yup",
-      skillsName: ["Shell", "Linux", "Security", "AUR"]
-    },
-    {
       title: "Tinas (2026)",
-      subtitleEN: "A Rust project from my systems/tooling experiments.",
-      subtitleFR: "Un projet Rust issu de mes expérimentations systèmes/outillage.",
+      subtitleEN: "Open-source .pak modder for Chromium-based browsers.",
+      subtitleFR: "Moddeur .pak open source pour navigateurs basés sur Chromium.",
       descriptionEN:
-          "A Rust codebase that fits my focus on systems programming and developer tooling. I use projects like this to explore strong typing, performance, reliability, and clean CLI-oriented workflows.",
+          "A GTK4 Rust app (Pak Assets Manager) for browsing, viewing, and editing Chrome/Brave .pak resource files. Includes Brave detection, image editing tools, and export workflows for browser resource packs.",
       descriptionFR:
-          "Une base de code Rust liée à mon intérêt pour la programmation système et l'outillage développeur. J'utilise ce type de projet pour explorer le typage fort, la performance, la fiabilité et des workflows CLI propres.",
-      image: "/projets/hostapp.webp",
+          "Une app GTK4 en Rust (Pak Assets Manager) pour parcourir, visualiser et éditer les fichiers de ressources .pak Chrome/Brave. Inclut la détection de Brave, des outils d'édition d'images et des workflows d'export pour les packs de ressources navigateur.",
+      image: "/projects/tinas.png",
       link: "https://github.com/ddroid/Tinas",
-      skillsName: ["Rust", "CLI", "Systems", "Dev Tooling"]
+      skillsName: ["Rust", "GTK", "Brave", "Desktop"]
     },
     {
-      title: "graph-explorer (2025-...)",
+      title: "ui-components (2025)",
+      subtitleEN: "Reusable UI components including a tiled editor surface.",
+      subtitleFR: "Composants UI réutilisables, dont une surface d'éditeur en tuiles.",
+      descriptionEN:
+          "A showcase of 15+ reusable UI components built for PlayProject tooling. The tile_manager surface is one of them: multi-file tabs, compact toolbar actions, and a layout pattern for prototyping apps.",
+      descriptionFR:
+          "Une vitrine de 15+ composants UI réutilisables construits pour l'outillage PlayProject. La surface tile_manager en fait partie : onglets multi-fichiers, actions de toolbar compactes et un layout pour apps de prototypage.",
+      image: "/projects/ui-components.png",
+      link: "https://github.com/ddroid/ui-components",
+      skillsName: ["JavaScript", "UI", "Components", "PlayProject"]
+    },
+    {
+      title: "graph-explorer (2025)",
       subtitleEN: "A graph-like hierarchical file tree explorer experiment.",
       subtitleFR: "Une expérimentation d'explorateur hiérarchique de fichiers sous forme de graphe.",
       descriptionEN:
           "A UI experiment around navigating trees as graphs: not just expanding children, but also moving through multiple parent/super entries. It reflects my interest in tooling, developer experience, and better ways to explore complex information.",
       descriptionFR:
           "Une expérimentation UI autour de la navigation dans des arbres comme des graphes: pas seulement développer les enfants, mais aussi explorer plusieurs entrées parentes. Elle reflète mon intérêt pour l'outillage, la DX et de meilleures façons d'explorer l'information complexe.",
-      image: "/projets/dartnodes.webp",
+      image: "/projects/graph-explorer.png",
       link: "https://github.com/ddroid/graph-explorer",
       skillsName: ["JavaScript", "UI", "Graph", "Dev Tooling"]
     },
-    {
-      title: "datashell (2026-...)",
-      subtitleEN: "A prototyping environment connected to PlayProject work.",
-      subtitleFR: "Un environnement de prototypage lié à mon travail chez PlayProject.",
-      descriptionEN:
-          "A prototyping environment for experimenting quickly with data, interfaces, and project ideas. It connects with my work at PlayProject and my broader interest in developer tools that shorten feedback loops.",
-      descriptionFR:
-          "Un environnement de prototypage pour expérimenter rapidement avec des données, des interfaces et des idées produit. Il est lié à mon travail chez PlayProject et à mon intérêt pour les outils développeur qui réduisent les boucles de feedback.",
-      image: "/projets/pepsitube.webp",
-      link: "https://github.com/ddroid/datashell",
-      skillsName: ["JavaScript", "Prototyping", "Dev Tooling"]
-    },
-    {
-      title: "OSportfolio (2024-...)",
-      subtitleEN: "This operating-system-inspired portfolio site.",
-      subtitleFR: "Ce portfolio inspiré d'un système d'exploitation.",
-      descriptionEN:
-          "My personal portfolio that behaves like a small operating system, with desktop icons, windows, terminal commands, wallpaper customization, and app-like sections for projects, skills, GitHub, and contact.",
-      descriptionFR:
-          "Mon portfolio personnel inspiré d'un petit système d'exploitation, avec icônes de bureau, fenêtres, commandes terminal, personnalisation du fond d'écran et sections façon applications pour les projets, compétences, GitHub et contact.",
-      image: "/projets/my-optikservers.webp",
-      link: "https://github.com/ddroid/OSportfolio",
-      skillsName: ["Preact", "TypeScript", "TailwindCSS", "Vite"]
-    },
   ];
- 
+
 export {languages, frameworks, db, tools, projects}
